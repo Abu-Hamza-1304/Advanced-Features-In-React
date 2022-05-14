@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composition</title>
+    <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <style>
+        .border {
+            padding: 6px;
+            border: 2px solid black;
+            width: 350px;
+        }
+        .plain-message {
+            font-size: 16px;
+            background: white;
+            margin-bottom: 10px;
+        }
+        .success-message {
+            background: green;
+            color: white;
+        }
+        .error-message {
+            background: red;
+            color: white;
+        }
+        .text {
+            color: blue;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="react-composition"></div>
+    <script type='text/babel' src="Composition.js"></script>
+</body>
+</html>
